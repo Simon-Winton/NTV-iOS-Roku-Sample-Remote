@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B87F676340C66253F5CA0F9CD42390864F0EF2C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "68B8B35B20A3988D73771ADA4B6545981932269A" : 9223372036854775807,
+    "B87F676340C66253F5CA0F9CD42390864F0EF2C3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E646DED0-B703-4C1A-BEF3-158820357383",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "68B8B35B20A3988D73771ADA4B6545981932269A" : "NowTvRemoteFramework\/",
+    "B87F676340C66253F5CA0F9CD42390864F0EF2C3" : "NTV-iOS-Roku-Sample-Remote\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NowTvSampleRemote",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NowTvSampleRemote.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Simon-Winton\/NowTvRemoteFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "68B8B35B20A3988D73771ADA4B6545981932269A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Simon-Winton\/NTV-iOS-Roku-Sample-Remote.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B87F676340C66253F5CA0F9CD42390864F0EF2C3"
+    }
+  ]
+}
