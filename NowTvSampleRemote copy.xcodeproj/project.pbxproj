@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0A26001DEC4A9600373BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A25FF1DEC4A9600373BEC /* AppDelegate.swift */; };
+		3E0A26021DEC4A9600373BEC /* RemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A26011DEC4A9600373BEC /* RemoteViewController.swift */; };
+		3E0A26051DEC4A9600373BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A26031DEC4A9600373BEC /* Main.storyboard */; };
+		3E0A26071DEC4A9600373BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A26061DEC4A9600373BEC /* Assets.xcassets */; };
+		3E0A260A1DEC4A9600373BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0A26081DEC4A9600373BEC /* LaunchScreen.storyboard */; };
+		3E3DDF041DF722DD00F3FC63 /* NowTvRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3DDF011DF722D200F3FC63 /* NowTvRemote.framework */; };
+		3E3DDF051DF722DD00F3FC63 /* NowTvRemote.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3DDF011DF722D200F3FC63 /* NowTvRemote.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E7BDA091DEC643B001CB40C /* DeviceSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BDA081DEC643B001CB40C /* DeviceSelectionTableViewController.swift */; };
+		3E7BDA0B1DEC64B3001CB40C /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BDA0A1DEC64B3001CB40C /* DeviceTableViewCell.swift */; };
+		3EEB3B991E574CB700F38177 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB3B981E574CB700F38177 /* DeviceManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E3DDF001DF722D200F3FC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3DDEFB1DF722D200F3FC63 /* NowTvRemote.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E8992971DE1B62A00B19744;
+			remoteInfo = NowTvRemote;
+		};
+		3E3DDF021DF722D200F3FC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3DDEFB1DF722D200F3FC63 /* NowTvRemote.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E8992A01DE1B62A00B19744;
+			remoteInfo = NowTvRemoteTests;
+		};
+		3E3DDF061DF722DD00F3FC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3DDEFB1DF722D200F3FC63 /* NowTvRemote.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8992961DE1B62A00B19744;
+			remoteInfo = NowTvRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EE551F01DEDBBFD003A4D3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3E3DDF051DF722DD00F3FC63 /* NowTvRemote.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E0A25FC1DEC4A9600373BEC /* NowTvSampleRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowTvSampleRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0A25FF1DEC4A9600373BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E0A26011DEC4A9600373BEC /* RemoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteViewController.swift; sourceTree = "<group>"; };
+		3E0A26041DEC4A9600373BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E0A26061DEC4A9600373BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E0A26091DEC4A9600373BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E0A260B1DEC4A9600373BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3DDEFB1DF722D200F3FC63 /* NowTvRemote.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NowTvRemote.xcodeproj; path = ../NowTvRemoteFramework/NowTvRemote/NowTvRemote.xcodeproj; sourceTree = "<group>"; };
+		3E7BDA081DEC643B001CB40C /* DeviceSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSelectionTableViewController.swift; sourceTree = "<group>"; };
+		3E7BDA0A1DEC64B3001CB40C /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		3EEB3B981E574CB700F38177 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E0A25F91DEC4A9600373BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3DDF041DF722DD00F3FC63 /* NowTvRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0A25F31DEC4A9600373BEC = {
+			isa = PBXGroup;
+			children = (
+				3E3DDEFB1DF722D200F3FC63 /* NowTvRemote.xcodeproj */,
+				3E0A25FE1DEC4A9600373BEC /* NowTvSampleRemote */,
+				3E0A25FD1DEC4A9600373BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E0A25FD1DEC4A9600373BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E0A25FC1DEC4A9600373BEC /* NowTvSampleRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E0A25FE1DEC4A9600373BEC /* NowTvSampleRemote */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8AA9D1DEEF99300797786 /* Device Controls */,
+				3E7BDA0C1DEC6E8A001CB40C /* Device Search */,
+				3E0A25FF1DEC4A9600373BEC /* AppDelegate.swift */,
+				3E0A26031DEC4A9600373BEC /* Main.storyboard */,
+				3E0A26061DEC4A9600373BEC /* Assets.xcassets */,
+				3E0A26081DEC4A9600373BEC /* LaunchScreen.storyboard */,
+				3E0A260B1DEC4A9600373BEC /* Info.plist */,
+			);
+			path = NowTvSampleRemote;
+			sourceTree = "<group>";
+		};
+		3E3DDEFC1DF722D200F3FC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3DDF011DF722D200F3FC63 /* NowTvRemote.framework */,
+				3E3DDF031DF722D200F3FC63 /* NowTvRemoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7BDA0C1DEC6E8A001CB40C /* Device Search */ = {
+			isa = PBXGroup;
+			children = (
+				3E7BDA081DEC643B001CB40C /* DeviceSelectionTableViewController.swift */,
+				3E7BDA0A1DEC64B3001CB40C /* DeviceTableViewCell.swift */,
+				3EEB3B981E574CB700F38177 /* DeviceManager.swift */,
+			);
+			name = "Device Search";
+			sourceTree = "<group>";
+		};
+		3ED8AA9D1DEEF99300797786 /* Device Controls */ = {
+			isa = PBXGroup;
+			children = (
+				3E0A26011DEC4A9600373BEC /* RemoteViewController.swift */,
+			);
+			name = "Device Controls";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E0A25FB1DEC4A9600373BEC /* NowTvSampleRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0A260E1DEC4A9600373BEC /* Build configuration list for PBXNativeTarget "NowTvSampleRemote" */;
+			buildPhases = (
+				3E0A25F81DEC4A9600373BEC /* Sources */,
+				3E0A25F91DEC4A9600373BEC /* Frameworks */,
+				3E0A25FA1DEC4A9600373BEC /* Resources */,
+				3EE551F01DEDBBFD003A4D3D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3DDF071DF722DD00F3FC63 /* PBXTargetDependency */,
+			);
+			name = NowTvSampleRemote;
+			productName = NowTvSampleRemote;
+			productReference = 3E0A25FC1DEC4A9600373BEC /* NowTvSampleRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E0A25F41DEC4A9600373BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Winton, Simon (Associate Software Developer)";
+				TargetAttributes = {
+					3E0A25FB1DEC4A9600373BEC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KQTF44GMMG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E0A25F71DEC4A9600373BEC /* Build configuration list for PBXProject "NowTvSampleRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E0A25F31DEC4A9600373BEC;
+			productRefGroup = 3E0A25FD1DEC4A9600373BEC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E3DDEFC1DF722D200F3FC63 /* Products */;
+					ProjectRef = 3E3DDEFB1DF722D200F3FC63 /* NowTvRemote.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3E0A25FB1DEC4A9600373BEC /* NowTvSampleRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3E3DDF011DF722D200F3FC63 /* NowTvRemote.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NowTvRemote.framework;
+			remoteRef = 3E3DDF001DF722D200F3FC63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E3DDF031DF722D200F3FC63 /* NowTvRemoteTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NowTvRemoteTests.xctest;
+			remoteRef = 3E3DDF021DF722D200F3FC63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E0A25FA1DEC4A9600373BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0A260A1DEC4A9600373BEC /* LaunchScreen.storyboard in Resources */,
+				3E0A26071DEC4A9600373BEC /* Assets.xcassets in Resources */,
+				3E0A26051DEC4A9600373BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E0A25F81DEC4A9600373BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0A26021DEC4A9600373BEC /* RemoteViewController.swift in Sources */,
+				3E7BDA091DEC643B001CB40C /* DeviceSelectionTableViewController.swift in Sources */,
+				3E0A26001DEC4A9600373BEC /* AppDelegate.swift in Sources */,
+				3EEB3B991E574CB700F38177 /* DeviceManager.swift in Sources */,
+				3E7BDA0B1DEC64B3001CB40C /* DeviceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E3DDF071DF722DD00F3FC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NowTvRemote;
+			targetProxy = 3E3DDF061DF722DD00F3FC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E0A26031DEC4A9600373BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E0A26041DEC4A9600373BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E0A26081DEC4A9600373BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E0A26091DEC4A9600373BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E0A260C1DEC4A9600373BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E0A260D1DEC4A9600373BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E0A260F1DEC4A9600373BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQTF44GMMG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NowTvSampleRemote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Simon.NowTvSampleRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E0A26101DEC4A9600373BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQTF44GMMG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NowTvSampleRemote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Simon.NowTvSampleRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E0A25F71DEC4A9600373BEC /* Build configuration list for PBXProject "NowTvSampleRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0A260C1DEC4A9600373BEC /* Debug */,
+				3E0A260D1DEC4A9600373BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E0A260E1DEC4A9600373BEC /* Build configuration list for PBXNativeTarget "NowTvSampleRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0A260F1DEC4A9600373BEC /* Debug */,
+				3E0A26101DEC4A9600373BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E0A25F41DEC4A9600373BEC /* Project object */;
+}
