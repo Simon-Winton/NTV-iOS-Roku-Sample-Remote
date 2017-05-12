@@ -57,7 +57,7 @@ class RemoteViewController: UIViewController, UITextFieldDelegate
 
     @IBAction func rewindPressed(_ sender: Any)
     {
-        remoteController.sendCustomRequest(url: "\(remoteController.baseURL!)/launch/26614?contentId=c3bb0b67de809510VgnVCM1000000b43150a____&mediaType=movie&context=continuewatchingplayback")
+        remoteController.throwContent(contentID: "1412", contentType: .Live)
 //        remoteController.buttonPressed(remoteControlButton: .rewind)
     }
     

@@ -32,8 +32,6 @@ class DeviceManager
         return Static.instance
     }
     
-    
-    
     func beginBroadcast()
     {
         if( deviceListener == nil)
@@ -86,14 +84,12 @@ class DeviceManager
     
     func disconnectDevice()
     {
-        self.updateTimer.invalidate()
+        updateTimer.invalidate()
         beginBroadcast()
-        self.deviceList.removeAll()
-        self.deviceList = self.deviceListener.getDevices()
-        self.ConnectedDevice = nil
-        self.isConnected = false
-        
-        
+        deviceList.removeAll()
+        deviceList = self.deviceListener.getDevices()
+        ConnectedDevice = nil
+        isConnected = false
     }
     
 }
